@@ -12,6 +12,7 @@ High-level documentation about project structure, design patterns, and architect
 - Project structure and folder organization
 - Reactive UI pattern usage
 - Simulation/View separation architecture
+- Scene management system
 - Theme and styling system
 
 ### 📖 `/sops` - Standard Operating Procedures

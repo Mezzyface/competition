@@ -1,0 +1,15 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxqkh7dgx3f5x"]
+
+[ext_resource type="Script" path="res://core_engine/core/app.gd" id="1_1a2b3"]
+[ext_resource type="PackedScene" uid="uid://bvnx8y4qp2mwk" path="res://core_engine/scene_manager/scene_root.tscn" id="2_scene"]
+[ext_resource type="PackedScene" uid="uid://c3d4e5f6g7h8i" path="res://core_engine/ui/ui_root.tscn" id="3_ui"]
+[ext_resource type="PackedScene" uid="uid://d4e5f6g7h8i9j" path="res://core_engine/audio_engine/audio_root.tscn" id="4_audio"]
+
+[node name="App" type="Node"]
+script = ExtResource("1_1a2b3")
+
+[node name="SceneRoot" parent="." instance=ExtResource("2_scene")]
+
+[node name="UIRoot" parent="." instance=ExtResource("3_ui")]
+
+[node name="AudioRoot" parent="." instance=ExtResource("4_audio")]
